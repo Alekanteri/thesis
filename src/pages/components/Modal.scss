@@ -1,0 +1,18 @@
+.modal_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100px;
+  width: 100%;
+  background-color: #4786fbbb;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #558ef8;
+    transition: .5s;
+  }
+}

@@ -1,0 +1,11 @@
+.life_title_prof {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1rem;
+  margin: 5rem 0;
+
+  img {
+    border-radius: 2rem;
+  }
+}

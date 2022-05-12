@@ -1,0 +1,22 @@
+.form {
+  display: flex;
+  flex-direction: column;
+
+  label {
+    color: #1263a7;
+    margin: .5rem;
+  }
+
+  input {
+    padding: .5rem;
+  }
+
+  button {
+    background-color: #1263a7;
+    border: none;
+    border-radius: .5rem;
+    margin: 1rem auto;
+    padding: .5rem;
+    color: #fff;
+  }
+}

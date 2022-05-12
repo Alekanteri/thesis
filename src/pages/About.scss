@@ -1,0 +1,29 @@
+.fil_map {
+  display: flex;
+  gap: 2rem;
+  
+  ol {
+    max-width: 650px; counter-reset: item;
+    
+    li {
+      display: block;
+
+      &::before {
+        color: #1263a7;
+        content: counter(item) ". ";
+        counter-increment: item;
+      }
+    }
+  }
+}
+
+.fil_prof {
+  margin: 5rem 0;
+  display: flex;
+  justify-content: space-around;
+
+
+  img {
+    height: 400px;
+  }
+}

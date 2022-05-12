@@ -1,0 +1,34 @@
+.atention {
+  color: #ff6d6d;
+
+  margin: 5rem 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5rem;
+  margin: 5rem 0;
+}
+
+a,span {
+  color: #1263a7;
+}
+
+.download {
+  margin: 1rem 0;
+}
+
+svg {
+  width: 15px;
+  height: 15px;
+  color: #111;
+}
+
+.modal_content {
+  padding: 1rem;
+}
+
+li {
+  margin: 1rem;
+}
